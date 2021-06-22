@@ -6,6 +6,6 @@ export default theme({
   },
   target: 'static',
   router: {
-    base: '/laravel-livewire-tables-docs/'
+    base: '/laravel-livewire-tables-docs'
   }
 })
