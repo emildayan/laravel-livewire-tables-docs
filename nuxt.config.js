@@ -5,6 +5,9 @@ export default theme({
     primaryColor: '#E24F55'
   },
   target: 'static',
+  content: {
+    liveEdit: false
+  },
   router: {
     base: '/laravel-livewire-tables-docs'
   }
