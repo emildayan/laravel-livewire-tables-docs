@@ -1,0 +1,10 @@
+{
+  "title": "Laravel Livewire Tables Docs",
+  "url": "https://laravel-livewire-tables-docs.bc",
+  "logo": {
+    "light": "/logo-light.svg",
+    "dark": "/logo-dark.svg"
+  },
+  "github": "bomshteyn/laravel-livewire-tables-docs",
+  "twitter": "@webdevtoronto"
+}
