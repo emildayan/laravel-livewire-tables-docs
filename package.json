@@ -11,5 +11,8 @@
   "dependencies": {
     "@nuxt/content-theme-docs": "0.10.1",
     "nuxt": "^2.15.2"
+  },
+  "devDependencies": {
+    "push-dir": "^0.4.1"
   }
 }
