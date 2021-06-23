@@ -6,5 +6,6 @@
     "dark": "logo-dark.svg"
   },
   "github": "bomshteyn/laravel-livewire-tables-docs",
-  "twitter": "@webdevtoronto"
+  "twitter": "@webdevtoronto",
+  "defaultDir": ""
 }
