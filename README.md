@@ -24,4 +24,12 @@ yarn generate
 
 To preview the static generated app, run `yarn start`
 
+## Deployment to Github Pages
+
+This will copy the `dist/` directory with static files to Girthub Pages branch and push it:
+
+```bash
+yarn run deploy
+```
+
 For detailed explanation on how things work, checkout [nuxt/content](https://content.nuxtjs.org) and [@nuxt/content theme docs](https://content.nuxtjs.org/themes-docs).
