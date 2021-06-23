@@ -8,7 +8,7 @@ fullscreen: true
 
 The DataTable plugin has many advanced features from bulk exporting, custom views, custom searching/sorting, filtering, column selection, drag & drop reordering, etc.
 
-There will be sections of the wiki to go into these in detail, but this is an example of a table with a custom row, filters, and bulk exporting:
+There will be sections of the docs to go into these in detail, but this is an example of a table with a custom row, filters, and bulk exporting:
 
 ```php
 <?php

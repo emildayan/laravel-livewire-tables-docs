@@ -34,4 +34,4 @@ Column::make('Type')
 
 If you do not add the searchable() method then the column will not be included when searching the term.
 
-For more advanced search abilities, take a look at the [search filter wiki](https://github.com/rappasoft/laravel-livewire-tables/wiki/The-search-filter).
+For more advanced search abilities, take a look at the [search filter docs](filters/The-search-filter).

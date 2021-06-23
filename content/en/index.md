@@ -2,14 +2,14 @@
 title: Home
 description: ''
 position: 1
-category: ''
+category: 'GETTING STARTED'
 fullscreen: true
 ---
 
 <img src="https://banners.beyondco.de/Laravel%20Livewire%20Tables.png?theme=light&packageName=rappasoft%2Flaravel-livewire-tables&pattern=hideout&style=style_1&description=A+dynamic+table+component+for+Laravel+Livewire&md=1&fontSize=100px&images=table" class="light-img" width="1280" alt=""/>
 <img src="https://banners.beyondco.de/Laravel%20Livewire%20Tables.png?theme=dark&packageName=rappasoft%2Flaravel-livewire-tables&pattern=hideout&style=style_1&description=A+dynamic+table+component+for+Laravel+Livewire&md=1&fontSize=100px&images=table" class="dark-img" width="1280" alt=""/>
 
-Welcome to the laravel-livewire-tables wiki!
+Welcome to the laravel-livewire-tables docs!
 
 I will do my best to document all features and configurations of this plugin.
 

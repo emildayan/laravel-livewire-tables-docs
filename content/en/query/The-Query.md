@@ -1,8 +1,8 @@
 ---
-title: The Query
+title: Eloquent Query
 description: ''
 position: 12
-category: ''
+category: 'The Query'
 fullscreen: true
 ---
 
