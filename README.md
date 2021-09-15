@@ -26,7 +26,7 @@ To preview the static generated app, run `yarn start`
 
 ## Deployment to Github Pages
 
-This will copy the `dist/` directory with static files to Girthub Pages branch and push it:
+This will copy the `dist/` directory with static files to Github Pages branch and push it:
 
 ```bash
 yarn run deploy
