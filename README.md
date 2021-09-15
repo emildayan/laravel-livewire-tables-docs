@@ -1,4 +1,4 @@
-# laravel-livewire-tables-docs
+# Laravel Livewire Tables Docs
 
 ## Setup
 
