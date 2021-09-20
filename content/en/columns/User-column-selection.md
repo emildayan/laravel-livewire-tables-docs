@@ -6,9 +6,9 @@ category: 'Columns'
 fullscreen: true
 ---
 
-<alert type='warning'>This feature is available in v1.10 and above</alert>
+<alert type='info'>This feature is available in v1.10 and above</alert>
 
-This feature is off by default.
+<alert type='warning'>This feature is off by default.</alert>
 
 To enable this feature, add this property to your table:
 
@@ -34,3 +34,22 @@ When working with custom row views, the column selector will hide the headers bu
 ```
 
 **Note:** If you enable column select and then add new columns, they will be hidden by default.
+
+### This feature is available in v1.14 and above
+
+#### Disabling the column selection session
+
+To disable the session remembering the user's column selection and revert to the default on each page load:
+
+```php
+public bool $rememberColumnSelection = false;
+```
+
+#### Pre-selecting columns
+
+To pre-select columns for the first time the user loads the table (the session storage will take over on subsequent requests, unless the $rememberColumnSelection bool is set to false):
+
+```php
+Column::make('email')
+    ->selected(),
+```

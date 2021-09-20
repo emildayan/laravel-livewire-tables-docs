@@ -2,22 +2,23 @@
 title: Drag and Drop Reordering
 menuTitle: 'Sortable'
 description: ''
-position: 5
-category: 'Usage'
+position: 22
+category: 'Row'
 fullscreen: false
 ---
 <alert type='danger'>This feature is in beta. This feature is available in v1.10 and above</alert>
 <alert type='warning'>
 You must include have Livewire Sortable installed for this feature.
 </alert>
-<alert>This feature is based on the [Livewire Sortable](https://github.com/livewire/sortable) plugin and is thereby limited to its features.</alert>
+<alert> This feature is based on the [Livewire Sortable](https://github.com/livewire/sortable) plugin and is thereby limited to its features.\
+**You must have [Livewire Sortable](https://github.com/livewire/sortable) or [Livewire Sortable.js](https://github.com/nextapps-be/livewire-sortablejs) installed for this feature.** </alert>
 
 ## A warning about reordering
 
 In order for reordering to work, all rows have to be loaded to the page regardless of if you have pagination on or off. So it's best to only use this feature if you have a minimal amount of rows to work with.
 
 <alert>
-**Note:** As of `v1.10.3`, the state of the table will be remembered instead of being wiped out and replaced when the user is done reordering so they can pick up where they left off.
+Note: As of v1.10.3, the state of the table will be remembered instead of being wiped out and replaced when the user is done reordering so they can pick up where they left off.
 </alert>
 
 ## Setup

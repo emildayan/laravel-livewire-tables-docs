@@ -7,9 +7,7 @@ category: 'Display'
 fullscreen: true
 ---
 
-<alert type='warning'>
-**Note: Multiple tables on a single page currently have many limitations with the state and query strings, the only currently supported feature is pagination as it is saved in the session. Multiple tables per page will work if there are no duplicate columns/filters/etc. between them.**
-</alert>
+<alert type='warning'>**Note:** Multiple tables on a single page currently have many limitations with the state and query strings, the only currently supported feature is pagination as it is saved in the session. Multiple tables per page will work if there are no duplicate columns/filters/etc. between them.</alert>
 
 **However**, you can disable state for the tables and they will work independently without the query string, just know they will not retain their information on page load:
 

@@ -1,14 +1,14 @@
 ---
 title: Advanced Example
 description: ''
-position: 4
+position: 5
 category: 'Usage'
 fullscreen: true
 ---
 
 The DataTable plugin has many advanced features from bulk exporting, custom views, custom searching/sorting, filtering, column selection, drag & drop reordering, etc.
 
-There will be sections of the docs to go into these in detail, but this is an example of a table with a custom row, filters, and bulk exporting:
+There will be sections of the wiki to go into these in detail, but this is an example of a table with a custom row, filters, and bulk exporting:
 
 ```php
 <?php
@@ -145,12 +145,12 @@ It's associated custom row:
                 <img class="h-10 w-10 rounded-full" src="{{ $row->profile_photo_url }}" alt="{{ $row->name }}" />
             </div>
         @endif
-
+    
         <div class="@if (Laravel\Jetstream\Jetstream::managesProfilePhotos()) ml-4 @endif">
             <div class="text-sm font-medium text-gray-900">
                 {{ $row->name }}
             </div>
-
+    
             @if($row->timezone)
                 <div wire:key="timezone-{{ $row->id }}" class="text-sm text-gray-500">
                     {{ str_replace('_', ' ', $row->timezone) }}

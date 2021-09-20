@@ -18,3 +18,5 @@ public function query(): Builder
 ```
 
 The query is where you will append custom searching and filters later in the documentation. You should also eager load any relationships you need here as well.
+
+Make sure your query includes a column to be used as the [primary key](usage/The-primary-key).

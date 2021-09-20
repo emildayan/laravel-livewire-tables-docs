@@ -17,6 +17,8 @@ Laravel Livewire Tables is a plugin built for Laravel Livewire that allows you t
 
 Here are some examples:
 
+![Dark Mode](https://imgur.com/QoEdC7n.png)
+
 ![Full Table](https://i.imgur.com/2kfibjR.png)
 
 ![With Filters Open](https://i.imgur.com/OHpuOmf.png)

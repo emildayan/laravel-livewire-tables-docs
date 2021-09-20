@@ -5,7 +5,8 @@ description: ''
 position: 2
 category: 'GETTING STARTED'
 ---
-**Note:** This plugin assumes you already have [Laravel Livewire 2.x](https://laravel-livewire.com) and [Alpine.js 2.x](https://github.com/alpinejs/alpine) installed and configured in your project **regardless of what theme you use**.
+
+<alert type="info">**Note:** This plugin assumes you already have [Laravel Livewire 2.x](https://laravel-livewire.com) and [Alpine.js 2.x](https://github.com/alpinejs/alpine) installed and configured in your project **regardless of what theme you use**.</alert>
 
 ----
 
@@ -48,6 +49,23 @@ return [
      */
     'theme' => 'tailwind',
 ];
+```
+
+## Tailwind Purge
+
+If you find that Tailwind's CSS purge is removing styles that are needed, you have to tell Tailwind to look for the table styles so it knows not to purge them.
+
+In your tailwind.config.js purge configuration:
+
+```js
+module.exports = {
+    mode: 'jit',
+    purge: [
+        ...
+        './vendor/rappasoft/laravel-livewire-tables/resources/views/tailwind/**/*.blade.php',
+    ],
+    ...
+};
 ```
 
 ## Other
