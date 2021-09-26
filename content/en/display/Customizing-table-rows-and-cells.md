@@ -190,7 +190,7 @@ public function setTableDataAttributes(Column $column, $row): array
 ```php
 public function setFooterDataClass(Column $column, $rows): ?string
 {
-    if ($column->column() === 'sales' && ! $rows->sum('sales') > 1000) {
+    if ($column->column() === 'sales' && $rows->sum('sales') > 1000) {
         return 'bg-green-500 text-green-800';
     }
 
