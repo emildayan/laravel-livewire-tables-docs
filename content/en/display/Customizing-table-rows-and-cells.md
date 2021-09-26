@@ -7,6 +7,30 @@ category: 'Display'
 fullscreen: true
 ---
 
+### Clickable Cells
+
+<alert>This feature is available in v1.16 and above</alert>
+
+If you would like to make the contents of the cell clickable, you may use the `toLink` method on the column:
+
+```php
+Column::make('Name')
+  ->sortable()
+  ->searchable()
+  ->linkTo(fn($value, $column, $row) => route('user.show', $row)),
+```
+
+The second parameter is the link target:
+
+```php
+Column::make('Name')
+  ->sortable()
+  ->searchable()
+  ->linkTo(fn($value, $column, $row) => route('user.show', $row), '_blank'),
+```
+
+### Classes, ID's, and Attributes
+
 <alert>This feature is available in v1.8 and above</alert>
 
 Sometimes you may wish to alter a row or cell depending on the contents within it. You have access to these class methods to hook into rendering of these rows and cells:
