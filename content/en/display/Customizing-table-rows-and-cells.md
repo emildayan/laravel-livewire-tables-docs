@@ -59,6 +59,52 @@ public function setTableDataAttributes(Column $column, $row): array
 
 <alert type='warning'>Table cell formatting will not work if you are using a custom row view, you must implement it yourself.</alert>
 
+<alert>The following footer methods are only available in v1.16 and above</alert>
+
+<alert>**Note:** Footer row methods receive a collection of the rows on the given page. A good example would be setting the background color of a cell depending on the sum of a column.</alert>
+
+```php
+public function setFooterRowClass($rows): ?string
+{
+    return null;
+}
+```
+
+```php
+public function setFooterRowId($rows): ?string
+{
+    return null;
+}
+```
+
+```php
+public function setFooterRowAttributes($rows): array
+{
+    return [];
+}
+```
+
+```php
+public function setFooterDataClass(Column $column, $rows): ?string
+{
+    return null;
+}
+```
+
+```php
+public function setFooterDataId(Column $column, $rows): ?string
+{
+    return null;
+}
+```
+
+```php
+public function setFooterDataAttributes(Column $column, $rows): array
+{
+    return [];
+}
+```
+
 ## Examples:
 
 ```php
@@ -112,5 +158,18 @@ public function setTableDataAttributes(Column $column, $row): array
     }
 
     return [];
+}
+```
+
+<alert>The footer methods follow the same principals but, here's an example on modifying the cell based on the sum of some data in the table.</alert>
+
+```php
+public function setFooterDataClass(Column $column, $rows): ?string
+{
+    if ($column->column() === 'sales' && ! $rows->sum('sales') > 1000) {
+        return 'bg-green-500 text-green-800';
+    }
+
+    return null;
 }
 ```

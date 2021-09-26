@@ -2,7 +2,7 @@
 title: Misc. Column Functionality
 menuTitle: 'Misc. Functionality'
 description: ''
-position: 11
+position: 12
 category: 'Columns'
 fullscreen: true
 ---
