@@ -19,3 +19,4 @@ You can control the display of some component pieces with the following properti
 | `$showFilterDropdown` | `true` | bool | Show the filter dropdown |
 | `$offlineIndicator` | `true` | bool | Shows a red banner when there is no internet connection. |
 | `$emptyMessage` | No items found. Try narrowing your search. | string | Set the default empty message of the table |
+| `$responsive` | `true` | bool | Enable/disable table responsiveness - **v1.16 and above** |
