@@ -108,3 +108,7 @@ For our example modal, I'm going to use a Jetstream component:
 ```
 
 Now when you click a row, a modal will appear with the given information for the row, and when you click away or hit the Done button, the information will be reset and the modal will disappear.
+
+### Working with links on clickable rows that display a modal:
+
+See: [Working with links on clickable rows](/rows/Clickable-Rows)
