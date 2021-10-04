@@ -6,7 +6,7 @@ category: 'Customizing'
 fullscreen: true
 ---
 
-If you would like the component to refresh at an internal you can set the `$refresh` class property:
+If you would like the component to refresh at an interval you can set the `$refresh` class property:
 
 | Property | Default | Options | Usage |
 | -------- | ------- | ------- | ----- |
